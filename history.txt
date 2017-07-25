@@ -1,1 +1,1 @@
-item, time_rented, price
+item, time_rented, total_price
