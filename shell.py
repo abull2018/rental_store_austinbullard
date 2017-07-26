@@ -1,5 +1,8 @@
 import core
 import disk
+from core import car_price
+
+
 # print('Hello World')
 
 def main():

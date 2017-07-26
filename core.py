@@ -16,13 +16,34 @@ def car_type(car):
 def car_price(car, days):
     '''(str) -> float'''
     if car == '1':
-        return float(days) * 40000
+        price = float(days) * 40000
+        sales_tax = 0.07
+        tax = price * sales_tax
+        total_price = price + tax
+        return total_price
     elif car == '2':
-        return float(days) * 3500
+        price = float(days) * 3500
+        sales_tax = 0.07
+        tax = price * sales_tax
+        total_price = price + tax
+        return total_price
     elif car == '3':
-        return float(days) * 2250
+        price = float(days) * 2250
+        sales_tax = 0.07
+        tax = price * sales_tax
+        total_price = price + tax
+        return total_price 
     elif car == '4':
-        return float(days) * 1675
+        price = float(days) * 1675
+        sales_tax = 0.07
+        tax = price * sales_tax
+        total_price = price + tax
+        return total_price
     elif car == '5':
-        return float(days) * 1600
+        price = float(days) * 1600
+        sales_tax = 0.07
+        tax = price * sales_tax
+        total_price = price + tax
+        return total_price 
+
 

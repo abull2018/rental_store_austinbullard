@@ -1,2 +1,4 @@
 car, days, price
 
+
+2, 2, 7490.0
