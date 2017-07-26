@@ -21,7 +21,7 @@ def main():
 
     car_type = disk.keep_history(car, days)
     disk.take_out(car, days)
-    print('Thank you!\n!!!Warning!!!\n We are not responsible for any speeding tickets!!!')
+    print('Thank you!\n!!!Warning!!!\nWe are not responsible for any speeding tickets!!!\nAny damage to the vehicle with be added to the bill!')
     
 if __name__ == '__main__':
     main()

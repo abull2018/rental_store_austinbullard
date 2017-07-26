@@ -26,6 +26,3 @@ def car_price(car, days):
     elif car == '5':
         return float(days) * 1600
 
-
-
-

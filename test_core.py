@@ -14,9 +14,9 @@ def test_car_type():
     
 
 def test_car_price():
-    assert core.car_price('1', 2) == 80000
-    assert core.car_price('2', 4) == 14000
-    assert core.car_price('3', 6) == 13500
-    assert core.car_price('4', 8) == 13400
-    assert core.car_price('5', 10) == 16000
+    assert core.car_price('1', 2) == 40000
+    assert core.car_price('2', 4) == 3500
+    assert core.car_price('3', 6) == 2250
+    assert core.car_price('4', 8) == 1675
+    assert core.car_price('5', 10) == 1600
     
