@@ -1,1 +1,6 @@
 item, quantity, price
+Lambo Gallardo, 10, 1,600
+Ferrari F450, 8, 1,675
+Lambo Murcielago, 7, 2,250
+R.R Drophead Phantom Coupe, 5, 3,500
+Bugatti Veyron, 3, 40,000
