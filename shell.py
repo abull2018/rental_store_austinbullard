@@ -3,7 +3,7 @@ import disk
 # print('Hello World')
 
 def main():
-    msg = '''Welcome to L\'s Animals!! Here is what we have to offer!!
+    msg = '''Welcome to L\'s Garage!! Here is what we have to offer!!
     \t1. Bugatti Veyron.$40000\n
     \t2. R.R Drophead Phantom Coupe.$3500\n
     \t3. Lambo Murcielago.$2250\n
@@ -20,6 +20,8 @@ def main():
     print('Your total will be ${:.2F}'.format(core.car_price(car, days)))
 
     car_type = disk.keep_history(car, days)
+    disk.take_out(car, days)
+    print('Thank you!\n!!!Warning!!!\n We are not responsible for any speeding tickets!!!')
     
 if __name__ == '__main__':
     main()
