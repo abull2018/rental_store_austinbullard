@@ -1,6 +1,5 @@
-car, amount, price
-Lambo Gallardo, 10, 1600
-Ferrari F450, 10, 1675
-Lambo Murcielago, 10, 2250
-R.R Drophead Phantom Coupe, 10, 3500
 Bugatti Veyron, 10, 40000
+R.R Drophead Phantom Coupe, 10, 3500
+Lambo Murcielago, 10, 2250
+Ferrari F450, 10, 1675
+Lambo Gallardo, 10, 1600
