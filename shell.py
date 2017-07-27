@@ -38,6 +38,7 @@ def main():
 
     car_type = disk.keep_history(car, days)
     disk.take_out(car, days)
+    # disk.add_back(car, days)
     print('Thank you!\n')
     print("⚠"'\nWe are not responsible for any tickets ‼\n'"⚠")
 
