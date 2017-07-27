@@ -1,4 +1,5 @@
 import core
+from core import car_price
 
 def keep_history(car, days):
     price = core.car_price(car, days)
@@ -29,7 +30,7 @@ def write_log():
         cap.append([split_string[0], float(split_string[1]), float(split_string[2])])
     return cap
 
-def inventory():
+def in_stock():
     left = []
     with open('inventory.txt', 'r') as file:
         file.readline()
@@ -40,21 +41,17 @@ def inventory():
     return left
 
 def take_out(car_type, amount):
-    str_l = ['Bugatti Veyron, 10, 40000',
-    'R.R Drophead Phantom Coupe, 10, 3500', 
-    'Lambo Murcielago, 10, 2250',
-    'Ferrari F450, 10, 1675',
-    'Lambo Gallardo, 10, 1600']
-    left = inventory()
+    str_l = ['car_type, in_stock, amount']
+    left = in_stock()
     for item in left:
         if item[0] == car_type:
             if float(amount) > item[1]:
                 print('We rented the last one out. Sorry for the inconvenience')
             else:
                 item[1] = float(item[1]) - float(car)
-            item[1] = str(item[1])
-            item[2] = str(item[2])
-            str_l.append(', '.join(item))
+        item[1] = str(item[1])
+        item[2] = str(item[2])
+        str_l.append(', '.join(item))
     message = '\n'.join(str_l)
     with open('inventory.txt', 'w') as file:
             file.write(message)

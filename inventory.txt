@@ -1,5 +1,6 @@
-Bugatti Veyron, 10, 40000
-R.R Drophead Phantom Coupe, 10, 3500
-Lambo Murcielago, 10, 2250
-Ferrari F450, 10, 1675
-Lambo Gallardo, 10, 1600
+car_type, in_stock, amount
+Bugatti Veyron, 10.0, 40000.0
+R.R Drophead Phantom Coupe, 10.0, 3500.0
+Lambo Murcielago, 10.0, 2250.0
+Ferrari F450, 10.0, 1675.0
+Lambo Gallardo, 10.0, 1600.0
