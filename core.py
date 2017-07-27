@@ -13,20 +13,20 @@ def car_type(car):
         car_type = 'Lambo Gallardo'
     return car_type 
 
-def r_value(car):
-    '''str -> str'''
-    message = ''
-    if car == '1' or car.lower() == 'one':
-        r_value = '1300000'
-    elif car == '2' or car.lower() == 'two':
-        r_value = '450000'
-    elif car == '3' or car.lower() == 'three':
-        r_value = '250000'
-    elif car == '4' or car.lower() == 'four':
-        r_value = '210000'
-    elif car == '5' or car.lower() == 'five':
-        r_value = '200000'
-    return r_value 
+# def r_value(car):
+#     '''str -> str'''
+#     message = ''
+#     if car == '1' or car.lower() == 'one':
+#         r_value = '1300000'
+#     elif car == '2' or car.lower() == 'two':
+#         r_value = '450000'
+#     elif car == '3' or car.lower() == 'three':
+#         r_value = '250000'
+#     elif car == '4' or car.lower() == 'four':
+#         r_value = '210000'
+#     elif car == '5' or car.lower() == 'five':
+#         r_value = '200000'
+#     return r_value 
 
 def car_price(car, days):
     '''(str) -> float'''
