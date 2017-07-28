@@ -30,29 +30,11 @@ def write_log():
         cap.append([split_string[0], float(split_string[1]), float(split_string[2])])
     return cap
 
-def in_stock():
-    left = []
-    with open('inventory.txt', 'r') as file:
-        file.readline()
-        lines = file.readlines()
-    for line in lines:
-        split_string = line.strip().split(', ')
-        left.append([split_string[0], float(split_string[1]), float(split_string[2])])
-    return left
+# def find_car():
 
-def take_out(car_type, amount):
-    str_l = ['car_type, in_stock, amount']
-    left = in_stock()
-    for item in left:
-        if item[0] == car_type:
-            if float(amount) > item[1]:
-                print('We rented the last one out. Sorry for the inconvenience')
-            else:
-                item[1] = float(item[1]) - float(car)
-        item[1] = str(item[1])
-        item[2] = str(item[2])
-        str_l.append(', '.join(item))
-    message = '\n'.join(str_l)
-    with open('inventory.txt', 'w') as file:
-            file.write(message)
+
+
+
+# def read_inventory(inventory):
+
 

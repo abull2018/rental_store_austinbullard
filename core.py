@@ -1,3 +1,4 @@
+import sys
 def car_type(car):
     '''str -> str'''
     message = ''
@@ -59,6 +60,6 @@ def car_price(car, days):
         sales_tax = 0.07
         tax = price * sales_tax
         total_price = price + tax
-        return total_price 
+        return total_price
 
 

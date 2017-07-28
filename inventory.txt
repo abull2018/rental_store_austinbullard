@@ -1,5 +1,5 @@
-dict = {'name': 'Bugatti Veyron', 'stock': 5, 'price': '40000'
-        'name': 'R.R Drophead Phantom Coupe', 'stock': '5', 'price': '3500'
-        'name': 'Lambo Murcielago', 'stock': 5, 'price': '2250'
-        'name': 'Ferrari F450', 'stock': '5', 'price': '1675'
-        'name': 'Lambo Gallardo', 'stock': '5', 'price': '1600'}
+dict = {'name': 'Bugatti Veyron', 'stock': 5, 'price': 40000,
+        'name': 'R.R Drophead Phantom Coupe', 'stock': 5, 'price': 3500,
+        'name': 'Lambo Murcielago', 'stock': 5, 'price': 2250,
+        'name': 'Ferrari F450', 'stock': 5, 'price': 1675,
+        'name': 'Lambo Gallardo', 'stock': 5, 'price': 1600}

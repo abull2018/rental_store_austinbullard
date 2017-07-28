@@ -2,6 +2,8 @@ import core
 import disk
 from core import car_price
 import sys, time
+import time
+
 
 typing_speed = 13
 def slow_type(t):
@@ -30,6 +32,7 @@ def main():
     while True:
         car = slow_type(msg)
         if car == '1' or car == '2' or car == '3' or car == '4' or car == '5':
+            
             break
         else:
             print('🚫 Sorry, Invalid choice🕴 🚫')
@@ -37,7 +40,7 @@ def main():
     print('Your total will be 💲{:.2F}'.format(core.car_price(car, days)))
 
     car_type = disk.keep_history(car, days)
-    disk.take_out(car, days)
+    # disk.take_out(car, days)
     # disk.add_back(car, days)
     print('Thank you!\n')
     print("⚠"'\nWe are not responsible for any tickets ‼\n'"⚠")
