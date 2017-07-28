@@ -1,6 +1,5 @@
-car_type, in_stock, amount
-Bugatti Veyron, 10.0, 40000.0
-R.R Drophead Phantom Coupe, 10.0, 3500.0
-Lambo Murcielago, 10.0, 2250.0
-Ferrari F450, 10.0, 1675.0
-Lambo Gallardo, 10.0, 1600.0
+dict = {'name': 'Bugatti Veyron', 'stock': 5, 'price': '40000'
+        'name': 'R.R Drophead Phantom Coupe', 'stock': '5', 'price': '3500'
+        'name': 'Lambo Murcielago', 'stock': 5, 'price': '2250'
+        'name': 'Ferrari F450', 'stock': '5', 'price': '1675'
+        'name': 'Lambo Gallardo', 'stock': '5', 'price': '1600'}
